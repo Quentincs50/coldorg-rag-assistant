@@ -53,7 +53,7 @@
 1. **Cloner le dépôt :**
 
 ```bash
-git clone https://github.com/<ton-username>/rag-maintenance
+git clone https://github.com/Quentincs50/cold-rag-assistance
 ```
 2. **Installer uv (si ce n'est pas déjà fait**
 ```bash
