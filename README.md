@@ -127,9 +127,11 @@ cat result_test.txt
 
 ## Revue de code
 
-├── helper.py          →  Initialisation du modèle d'embeddings (nomic-embed-text via Ollama)
-├── query_data.py      →  Recherche vectorielle dans ChromaDB + construction du prompt + génération de la réponse via Mistral
-└── setup_database.py  →  Chargement des fichiers JSON & TXT → découpage en chunks → calcul des IDs → indexation dans ChromaDB
+| Fichier | Rôle |
+|---|---|
+| `helper.py` | Initialisation du modèle d'embeddings (nomic-embed-text via Ollama) |
+| `query_data.py` | Recherche vectorielle dans ChromaDB + construction du prompt + génération de la réponse via Mistral |
+| `setup_database.py` | Chargement des fichiers JSON & TXT → découpage en chunks → calcul des IDs → indexation dans ChromaDB |
 
 ## Limites identifiées 
 
