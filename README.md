@@ -21,9 +21,7 @@
      Prototype d'assistant RAG (Retrieval-Augmented Generation) pour aider les techniciens de maintenance à diagnostiquer des pannes en s'appuyant sur l'historique des interventions et les fiches techniques équipements.
     </div>
 </div>
-<div>
-  ________________________________________________________________________________________________________________________________________________
-</div>
+
 
 <!-- SOMMAIRE -->
 <details>
