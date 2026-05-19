@@ -53,13 +53,20 @@
 ## Commencement
 
 ### Choix de la stack
+
 Python — Langage de référence pour les projets Data/IA, écosystème riche et adapté au RAG.
+
 LangChain — Framework qui structure le pipeline RAG (loaders, splitters, chaînes). Permet de se concentrer sur la logique métier.
+
 ChromaDB — Base vectorielle légère qui persiste sur disque. Pas besoin de serveur externe, s'intègre nativement avec LangChain. Idéal pour un prototype. À l'échelle (10 000+ interventions), on passerait sur Qdrant ou Weaviate.
+
 nomic-embed-text — Modèle d'embeddings open-source tournant en local via Ollama. Performant sur le français, aucune clé API requise, aucun coût.
 Mistral 7B / Phi3 — LLM open-source tournant en local via Ollama. Zéro coût, zéro dépendance externe. Phi3 recommandé sur CPU avec RAM limitée. En production, on utiliserait une API comme Groq ou OpenAI pour la latence.
+
 Ollama — Permet de faire tourner les modèles en local en une commande. Simplifie énormément le setup et garantit la reproductibilité.
+
 Streamlit — Interface web en quelques lignes de Python. Dropzone pour uploader de nouvelles données, historique de conversation via st.session_state.
+
 uv — Gestionnaire de packages moderne, plus rapide que pip. uv.lock garantit la reproductibilité exacte de l'environnement.
 
 ### Installation
