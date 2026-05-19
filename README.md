@@ -127,9 +127,9 @@ cat result_test.txt
 
 ## Revue de code
 
-├── helper.py           # Fonction d'embeddings (Ollama)
-├── query_data.py       # Recherche vectorielle + construction du prompt + génération via Mistral
-└── setup_database.py   # Chargement JSON & TXT → chunks → IDs uniques → indexation ChromaDB
+├── helper.py          →  Initialisation du modèle d'embeddings (nomic-embed-text via Ollama)
+├── query_data.py      →  Recherche vectorielle dans ChromaDB + construction du prompt + génération de la réponse via Mistral
+└── setup_database.py  →  Chargement des fichiers JSON & TXT → découpage en chunks → calcul des IDs → indexation dans ChromaDB
 
 ## Limites identifiées 
 
