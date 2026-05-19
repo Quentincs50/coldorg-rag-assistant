@@ -127,9 +127,9 @@ cat result_test.txt
 
 ## Revue de code
 
-│   ├── helper.py         | fonction qui gère l'intégration
-│   ├── query_data.py     | fonction qui gère la requête utilisateur
-│   └── setup_database.py | fonctions les loader des fichiers selon leurs emplacements et leur nature et formate en documents, split les documents en chunks, formate les chunks avec des id uniques, ajoute les chunks intégrés dans la database
+├── helper.py           # Fonction d'embeddings (Ollama)
+├── query_data.py       # Recherche vectorielle + construction du prompt + génération via Mistral
+└── setup_database.py   # Chargement JSON & TXT → chunks → IDs uniques → indexation ChromaDB
 
 ## Limites identifiées 
 
