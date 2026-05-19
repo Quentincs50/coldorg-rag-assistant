@@ -1,0 +1,6 @@
+ollama 
+langchain 
+chromadb 
+python-dotenv
+jq
+streamlit
