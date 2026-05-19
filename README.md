@@ -155,3 +155,7 @@ def load_interventions():
 
 ## Contact
 Quentin Sanchez - [@Quentin_Sanchez](https://www.linkedin.com/in/quentin-sanchez-9b6741b6) - Linkedin
+
+## Outils / Inspiration 
+
+[pixegami-github](https://github.com/pixegami/rag-tutorial-v2/blob/main/.gitignore)
