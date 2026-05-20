@@ -44,9 +44,9 @@
     <li><a href="#resultats-des-test">Resultats des tests</a></li>
     <li><a href="#revue-de-code">Revue de code</a></li>
     <li><a href="#limites-identifiées">Limites identifiées</a></li>
-    <li><a href="#piste-d'amélioration">Piste d'amélioration</a></li>
+    <li><a href="#piste-d-amélioration">Piste d'amélioration</a></li>
     <li><a href="#contact">Contact</a></li>
-    <li><a href="#Outils">Outils</a></li>
+    <li><a href="#inspiration">Inspiration</a></li>
   </ol>
 </details>
 
@@ -74,7 +74,7 @@ uv — Gestionnaire de packages moderne, plus rapide que pip. uv.lock garantit l
 1. **Cloner le dépôt :**
 
 ```bash
-git clone https://github.com/Quentincs50/cold-rag-assistance
+git clone https://github.com/Quentincs50/coldrog-rag-assistant
 ```
 2. **Installer uv (si ce n'est pas déjà fait**
 ```bash
@@ -156,6 +156,6 @@ def load_interventions():
 ## Contact
 Quentin Sanchez - [@Quentin_Sanchez](https://www.linkedin.com/in/quentin-sanchez-9b6741b6) - Linkedin
 
-## Outils / Inspiration 
+## Inspiration 
 
 [pixegami-github](https://github.com/pixegami/rag-tutorial-v2/blob/main/.gitignore)
