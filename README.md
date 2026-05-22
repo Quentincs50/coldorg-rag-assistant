@@ -115,7 +115,7 @@ python main.py --reset
 
 2. **Lancement streamlit**
 ```bash
-streamlit run app.py
+streamlit run chatbot.py
 ```
 
 ## Resultats des tests
