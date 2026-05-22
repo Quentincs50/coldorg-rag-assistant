@@ -41,7 +41,7 @@
         <li><a href="#lancement">Lancement</a></li>
       </ul>
     </li>
-    <li><a href="#resultats-des-test">Resultats des tests</a></li>
+    <li><a href="#resultats-des-tests">Resultats des tests</a></li>
     <li><a href="#revue-de-code">Revue de code</a></li>
     <li><a href="#limites-identifiées">Limites identifiées</a></li>
     <li><a href="#piste-d-amélioration">Piste d'amélioration</a></li>
