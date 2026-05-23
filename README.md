@@ -15,11 +15,7 @@
   <img src="https://img.shields.io/badge/uv-DE5FE9?style=for-the-badge&logoColor=white" alt="uv" />
 </div>
 
-  <h3 align="center">Assistant IA Techniciens de Maintenance — COLDBOT</h3>
-
-   <div align="center">
-     Prototype d'assistant RAG (Retrieval-Augmented Generation) pour aider les techniciens de maintenance à diagnostiquer des pannes en s'appuyant sur l'historique des interventions et les fiches techniques équipements.
-    </div>
+  <h3 align="center">Assistant IA Techniciens de Maintenance : COLDBOT</h3>
 </div>
 
 
@@ -29,15 +25,14 @@
   <summary>Table de contenu</summary>
   <ol>
     <li>
-      <a href="#le-projet">A propos du projet</a>
+      <a href="#le-projet">A propos</a>
       <ul>
-        <li><a href="#choix-de-la-stack">Stack Technique</a></li>
+        <li><a href="#choix-de-la-stack">Choix de la stack/a></li>
       </ul>
     </li>
     <li>
       <a href="#commencement">Commencer</a>
       <ul>
-        <li><a href="#choix">Choix de la stack</a></li>
         <li><a href="#installation">Installation</a></li>
         <li><a href="#lancement">Lancement</a></li>
       </ul>
@@ -52,25 +47,32 @@
 </details>
 </div>
 
-## Commencement
+## A propos du projet
+
+<div align="center">
+     <a id="le-projet"></a>
+     Prototype d'assistant RAG (Retrieval-Augmented Generation) pour aider les techniciens de maintenance à diagnostiquer des pannes en s'appuyant sur l'historique des interventions et les fiches techniques équipements.
+    </div>
 
 ### Choix de la stack
 
-Python - Langage de référence pour les projets Data/IA, écosystème riche et adapté au RAG.
+Python : Langage de référence pour les projets Data/IA, écosystème riche et adapté au RAG.
 
-LangChain - Framework qui structure le pipeline RAG (loaders, splitters, chaînes). Permet de se concentrer sur la logique métier.
+LangChain : Framework qui structure le pipeline RAG (loaders, splitters, chaînes). Permet de se concentrer sur la logique métier.
 
-ChromaDB - Base vectorielle légère qui persiste sur disque. Pas besoin de serveur externe, s'intègre nativement avec LangChain. Idéal pour un prototype. À l'échelle 10 000 interventions, on passerait sur Qdrant ou Weaviate.
+ChromaDB : Base vectorielle légère qui persiste sur disque. Pas besoin de serveur externe, s'intègre nativement avec LangChain. Idéal pour un prototype. À l'échelle 10 000 interventions, on passerait sur Qdrant ou Weaviate.
 
-nomic-embed-text - Modèle d'embeddings open-source tournant en local via Ollama. Performant sur le français, aucune clé API requise, aucun coût.
+nomic-embed-text : Modèle d'embeddings open-source tournant en local via Ollama. Performant sur le français, aucune clé API requise, aucun coût.
 
-Mistral 7B / Phi3 - LLM open-source tournant en local via Ollama. Zéro coût. Phi3 recommandé sur CPU avec RAM limitée. En production, on utiliserait une API comme Groq ou OpenAI pour la latence.
+Mistral 7B / Phi3 : LLM open-source tournant en local via Ollama. Zéro coût. Phi3 recommandé sur CPU avec RAM limitée. En production, on utiliserait une API comme Groq ou OpenAI pour la latence.
 
-Ollama - Permet de faire tourner les modèles en local en une commande. Simplifie énormément le setup et garantit la reproductibilité.
+Ollama : Permet de faire tourner les modèles en local en une commande. Simplifie énormément le setup et garantit la reproductibilité.
 
-Streamlit - Interface web en quelques lignes de Python. Dropzone pour uploader de nouvelles données, historique de conversation via st.session_state.
+Streamlit : Interface web en quelques lignes de Python. Dropzone pour uploader de nouvelles données, historique de conversation via st.session_state.
 
-uv - Gestionnaire de packages moderne, plus rapide que pip. uv.lock garantit la reproductibilité exacte de l'environnement.
+uv : Gestionnaire de packages moderne, plus rapide que pip. uv.lock garantit la reproductibilité exacte de l'environnement.
+
+## Commencement
 
 ### Installation
 
