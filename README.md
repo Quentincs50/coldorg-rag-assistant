@@ -24,13 +24,14 @@
 
 
 <!-- SOMMAIRE -->
+<div>
 <details>
   <summary>Table de contenu</summary>
   <ol>
     <li>
       <a href="#le-projet">A propos du projet</a>
       <ul>
-        <li><a href="#stack-technique">Stack Technique</a></li>
+        <li><a href="#choix-de-la-stack">Stack Technique</a></li>
       </ul>
     </li>
     <li>
@@ -49,25 +50,27 @@
     <li><a href="#inspiration">Inspiration</a></li>
   </ol>
 </details>
+</div>
 
 ## Commencement
 
 ### Choix de la stack
 
-Python — Langage de référence pour les projets Data/IA, écosystème riche et adapté au RAG.
+Python - Langage de référence pour les projets Data/IA, écosystème riche et adapté au RAG.
 
-LangChain — Framework qui structure le pipeline RAG (loaders, splitters, chaînes). Permet de se concentrer sur la logique métier.
+LangChain - Framework qui structure le pipeline RAG (loaders, splitters, chaînes). Permet de se concentrer sur la logique métier.
 
-ChromaDB — Base vectorielle légère qui persiste sur disque. Pas besoin de serveur externe, s'intègre nativement avec LangChain. Idéal pour un prototype. À l'échelle (10 000+ interventions), on passerait sur Qdrant ou Weaviate.
+ChromaDB - Base vectorielle légère qui persiste sur disque. Pas besoin de serveur externe, s'intègre nativement avec LangChain. Idéal pour un prototype. À l'échelle 10 000 interventions, on passerait sur Qdrant ou Weaviate.
 
-nomic-embed-text — Modèle d'embeddings open-source tournant en local via Ollama. Performant sur le français, aucune clé API requise, aucun coût.
-Mistral 7B / Phi3 — LLM open-source tournant en local via Ollama. Zéro coût, zéro dépendance externe. Phi3 recommandé sur CPU avec RAM limitée. En production, on utiliserait une API comme Groq ou OpenAI pour la latence.
+nomic-embed-text - Modèle d'embeddings open-source tournant en local via Ollama. Performant sur le français, aucune clé API requise, aucun coût.
 
-Ollama — Permet de faire tourner les modèles en local en une commande. Simplifie énormément le setup et garantit la reproductibilité.
+Mistral 7B / Phi3 - LLM open-source tournant en local via Ollama. Zéro coût. Phi3 recommandé sur CPU avec RAM limitée. En production, on utiliserait une API comme Groq ou OpenAI pour la latence.
 
-Streamlit — Interface web en quelques lignes de Python. Dropzone pour uploader de nouvelles données, historique de conversation via st.session_state.
+Ollama - Permet de faire tourner les modèles en local en une commande. Simplifie énormément le setup et garantit la reproductibilité.
 
-uv — Gestionnaire de packages moderne, plus rapide que pip. uv.lock garantit la reproductibilité exacte de l'environnement.
+Streamlit - Interface web en quelques lignes de Python. Dropzone pour uploader de nouvelles données, historique de conversation via st.session_state.
+
+uv - Gestionnaire de packages moderne, plus rapide que pip. uv.lock garantit la reproductibilité exacte de l'environnement.
 
 ### Installation
 
