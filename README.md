@@ -27,7 +27,7 @@
     <li>
       <a href="#le-projet">A propos</a>
       <ul>
-        <li><a href="#choix-de-la-stack">Choix de la stack/a></li>
+        <li><a href="#choix-de-la-stack">Choix de la stack</a></li>
       </ul>
     </li>
     <li>
